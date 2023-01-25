@@ -6,18 +6,21 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav id="navbar">
-        <h2>
-            <Link to={"/"}> <BiCameraMovie/>Movies Info </Link>
-        </h2>
-        <form>
-            <input type="text" placeholder="Busque um filme" />
-            
-            <button type="submit">
-                <BiSearchAlt2/>
-            </button>
-        </form>
-  </nav>
+    <div>
+        <nav id="navbar">
+            <h2>
+                <Link to={"/"}> <BiCameraMovie/>Movies Info </Link>
+            </h2>
+            <form>
+                <input type="text" placeholder="Busque um filme" />
+                
+                <button type="submit">
+                    <BiSearchAlt2/>
+                </button>
+            </form>
+        </nav>
+        <Link to={"popular"}>Popular</Link>
+  </div>
   )
 }
 
