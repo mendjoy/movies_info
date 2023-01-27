@@ -17,6 +17,8 @@ const PopularMovies = () => {
     const data = await res.json();
 
     setPopulartMovies(data.results); 
+    
+
 
   };
 
