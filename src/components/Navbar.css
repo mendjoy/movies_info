@@ -49,9 +49,10 @@
 
 .bar-link a{
     padding: 10px;
-
+    margin-right: 100px;
 }
 
 .bar-link a:hover{
     background-color: #111;
+    
 }

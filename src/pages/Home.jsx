@@ -17,6 +17,8 @@ const Home = () => {
     const data = await res.json();
 
     setTopMovies(data.results); // espera a requisição de top filmes para acessa-los
+
+    console.log(data)
   };
 
   useEffect(() => {  //A função getTopRatedMovies será executada quando a pagina for carregada (array vazio)
