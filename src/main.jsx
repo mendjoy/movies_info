@@ -12,6 +12,7 @@ import PopularMovies from './pages/PopularMovies';
 
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
